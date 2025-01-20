@@ -33,6 +33,12 @@
             "state": "translated",
             "value": "Hallo Welt! Wie geht's?"
           }
+        },
+        "ar-AE": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مرحباً بالعالم! كيف الحال؟"
+          }
         }
       },
       "extractionState": "manual"
@@ -67,6 +73,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Willkommen, %@!"
+          }
+        },
+        "ar-AE": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مرحباً، %@!"
           }
         }
       },
@@ -279,6 +291,48 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "%lld Artikel"
+                }
+              }
+            }
+          }
+        },
+        "ar-AE": {
+          "variations": {
+            "plural": {
+              "zero": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "لا توجد عناصر"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "عنصر واحد"
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "عنصران"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld عناصر"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld عنصراً"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld عنصر"
                 }
               }
             }
@@ -498,6 +552,48 @@
               }
             }
           }
+        },
+        "ar-AE": {
+          "variations": {
+            "plural": {
+              "zero": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "الحدث اليوم!"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "الحدث غداً!"
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "الحدث بعد يومين"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "الحدث بعد %lld أيام"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "الحدث بعد %lld يوماً"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "الحدث بعد %lld يوم"
+                }
+              }
+            }
+          }
         }
       },
       "extractionState": "manual"
@@ -532,6 +628,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Benutzer %1$@ hat %2$lld Punkte und $%3$.2f Guthaben"
+          }
+        },
+        "ar-AE": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "المستخدم %1$@ لديه %2$lld نقطة ورصيد $%3$.2f"
           }
         }
       },
@@ -568,6 +670,12 @@
             "state": "translated",
             "value": "Heute ist %@"
           }
+        },
+        "ar-AE": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اليوم هو %@"
+          }
         }
       },
       "extractionState": "manual"
@@ -602,6 +710,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dies ist ein <b>mehrzeiliger</b> Text mit:\n• HTML-Tags\n• Sonderzeichen: ©®™\n• Einem <a href=\"https://example.com\">Link</a>"
+          }
+        },
+        "ar-AE": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هذا نص <b>متعدد الأسطر</b> يحتوي على:\n• وسوم HTML\n• رموز خاصة: ©®™\n• <a href=\"https://example.com\">رابط</a>"
           }
         }
       },
