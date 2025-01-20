@@ -2,21 +2,20 @@
   "version": 1.2,
   "locale": {
     "source": "en",
-    "targets": [
-      "es",
-      "fr"
-    ]
+    "targets": ["es", "fr"]
   },
   "buckets": {
+    "android": {
+      "include": ["public/android/[locale].xml"]
+    },
+    "xcode-xcstrings": {
+      "include": ["public/xcode-xcstrings/Localizable.xcstrings"]
+    },
     "json": {
-      "include": [
-        "public/i18n/[locale].json"
-      ]
+      "include": ["public/i18n/[locale].json"]
     },
     "markdown": {
-      "include": [
-        "public/content/[locale]/*.md"
-      ]
+      "include": ["public/content/[locale]/*.md"]
     }
   }
 }
