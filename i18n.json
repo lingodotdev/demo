@@ -2,7 +2,7 @@
   "version": 1.2,
   "locale": {
     "source": "en",
-    "targets": ["es", "fr"]
+    "targets": ["es", "fr", "ar-AE"]
   },
   "buckets": {
     "android": {
