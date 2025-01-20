@@ -19,7 +19,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Bonjour tout le monde ! Comment ça va ?"
+            "value": "Bonjour ! Comment ça va ?"
           }
         },
         "it": {
@@ -164,37 +164,37 @@
               "zero": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "Aucun article"
+                  "value": "Aucun élément"
                 }
               },
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "Un article"
+                  "value": "Un élément"
                 }
               },
               "two": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "Deux articles"
+                  "value": "Deux éléments"
                 }
               },
               "few": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld articles"
+                  "value": "%lld éléments"
                 }
               },
               "many": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld articles"
+                  "value": "%lld éléments"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld articles"
+                  "value": "%lld éléments"
                 }
               }
             }
