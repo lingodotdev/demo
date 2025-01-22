@@ -194,19 +194,19 @@
               "few": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld éléments"
+                  "value": "%lld articles"
                 }
               },
               "many": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld éléments"
+                  "value": "%lld articles"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld éléments"
+                  "value": "%lld articles"
                 }
               }
             }
@@ -326,7 +326,7 @@
               "many": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld عنصراً"
+                  "value": "%lld عنصر"
                 }
               },
               "other": {
@@ -451,19 +451,19 @@
               "few": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "L'événement est dans %lld jours"
+                  "value": "L'événement aura lieu dans %lld jours"
                 }
               },
               "many": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "L'événement est dans %lld jours"
+                  "value": "L'événement aura lieu dans %lld jours"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "L'événement est dans %lld jours"
+                  "value": "L'événement aura lieu dans %lld jours"
                 }
               }
             }
@@ -583,7 +583,7 @@
               "many": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "الحدث بعد %lld يوماً"
+                  "value": "الحدث بعد %lld يوم"
                 }
               },
               "other": {
@@ -615,7 +615,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "L'utilisateur %1$@ a %2$lld points et un solde de %3$.2f €"
+            "value": "L'utilisateur %1$@ a %2$lld points et un solde de %3$.2f $"
           }
         },
         "it": {
@@ -656,7 +656,7 @@
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Aujourd'hui c'est le %@"
+            "value": "Aujourd'hui, nous sommes le %@"
           }
         },
         "it": {
