@@ -1,10 +1,11 @@
 {
-  "name": "demo",
+  "name": "@lingo.dev/~demo",
+  "version": "0.0.0",
   "private": true,
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "replexica": "npx replexica@latest",
+    "i18n": "npx lingo.dev@latest i18n",
     "build": "remix vite:build",
     "dev": "remix vite:dev",
     "deploy": "./scripts/deploy.sh"
