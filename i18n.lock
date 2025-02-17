@@ -1,7 +1,7 @@
 version: 1
 checksums:
   56f1d792e5cf2a49d9f48cfa2a009037:
-    landing.header: 8bcd077c28e1a885878648edbc23692a
+    landing.header: d063c45ecd3e1550198942f591612c63
     landing.subheader: e5b63c9fb214dbdf4b311baa49be31b6
     landing.cta.getStarted: 70217f3c73ff414d22893a4f13be84d6
     landing.features.fast: 2090aa4171dc0b60735069f89b592883
@@ -10,13 +10,13 @@ checksums:
     dashboard.subtitle: 27c516f85cc267c7438809eb09e9ccd7
     auth.signUp: 0dd2ae69be4618c1f9e615774a4509ca
     auth.username: 2ee65bc2dd2f12cf2672f95b2a054bf8
-    auth.enterUsername: ceca9941c44bf894fcef74b8c050d714
+    auth.username.placeholder: a735a409d94889fc740fec8315e291d9
     auth.emailAddress: 0ee22bbbe989a0c61a18023407d12dc2
-    auth.enterEmail: 9bc008365ebe3e404e241c8ca876f56e
+    auth.emailAddress.placeholder: 54032f62c61182dd7649ea7b7fd5bc6d
     auth.password: 223a61cf906ab9c40d22612c588dff48
-    auth.enterPassword: ea4fdd034522dead21bae0c0abb52eae
+    auth.password.placeholder: e138302529fc80e39e3e801bdfac92cc
     auth.confirmPassword: 140bae95eb2040668118c6244c4a4825
-    auth.confirmYourPassword: 224b4aa56991875af1df9d3b102de647
+    auth.confirmPassword.placeholder: 984d5dac4980f0a5a0efdff6ebd788a8
     auth.agreeTerms: 5c627028f90bc51dd906abcb567e0324
     auth.terms: 9ac262b2eda552beeecd904c0b9f8fa2
     auth.and: ce8b9bb44f031705708a70e068bb73c8
@@ -108,20 +108,20 @@ checksums:
     numberOfSongsAvailable/many: ed1879c58d83f67060915c0821b7e019
     numberOfSongsAvailable/other: ed1879c58d83f67060915c0821b7e019
   5eb04c1d4fa2421c9ebd08ee5b504927:
-    greeting: fcfe23a1d5ab68ef07057a39827cbda2
-    welcome_user: 378fc81f59f0d54c13bbab7f2de74e18
-    items_count/zero: 955c31a42e9ff663a49e69e944c8c537
-    items_count/one: 154c8eed472b867c8d5af66d162abd2c
-    items_count/two: 8d5f050e1b4c80b1cb2dfd5960330dd6
-    items_count/few: ecb3f18dc6a5e7b3e1d9afe7ef62cf07
-    items_count/many: ecb3f18dc6a5e7b3e1d9afe7ef62cf07
-    items_count/other: ecb3f18dc6a5e7b3e1d9afe7ef62cf07
-    days_until_event/zero: c36f40b15661634b9d11a6704489bb2c
-    days_until_event/one: b42325bee976924c2ec6a2e318b1edfd
-    days_until_event/two: 7f8cb60480d1a0e81b8e0ae0a1d93616
-    days_until_event/few: 5e8c2211cf1d25689a2dafca7727ef5c
-    days_until_event/many: 5e8c2211cf1d25689a2dafca7727ef5c
-    days_until_event/other: 5e8c2211cf1d25689a2dafca7727ef5c
     complex_format: 3dd10711bade5a656b9b47586ab27b9b
     date_format: 8942506eb273da4d6adc222474d79016
+    days_until_event/few: 5e8c2211cf1d25689a2dafca7727ef5c
+    days_until_event/many: 5e8c2211cf1d25689a2dafca7727ef5c
+    days_until_event/one: b42325bee976924c2ec6a2e318b1edfd
+    days_until_event/other: 5e8c2211cf1d25689a2dafca7727ef5c
+    days_until_event/two: 7f8cb60480d1a0e81b8e0ae0a1d93616
+    days_until_event/zero: c36f40b15661634b9d11a6704489bb2c
+    greeting: fcfe23a1d5ab68ef07057a39827cbda2
+    items_count/few: ecb3f18dc6a5e7b3e1d9afe7ef62cf07
+    items_count/many: ecb3f18dc6a5e7b3e1d9afe7ef62cf07
+    items_count/one: 154c8eed472b867c8d5af66d162abd2c
+    items_count/other: ecb3f18dc6a5e7b3e1d9afe7ef62cf07
+    items_count/two: 8d5f050e1b4c80b1cb2dfd5960330dd6
+    items_count/zero: 955c31a42e9ff663a49e69e944c8c537
     multiline_html: a2f5d47387c8011c0dccc58ceaa1cb8c
+    welcome_user: 378fc81f59f0d54c13bbab7f2de74e18

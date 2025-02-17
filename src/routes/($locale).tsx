@@ -14,16 +14,16 @@ import RootLayout from "~/components/layout";
 import { cn } from "~/utils";
 import demoConfig from "~/demo-config";
 import { LoaderFunctionArgs } from "@remix-run/node";
-import { IntlProvider } from 'react-intl';
+import { IntlProvider } from "react-intl";
 
 export const loader = async (args: LoaderFunctionArgs) => {
   const locale = args.params.locale;
   if (!locale) {
-    return redirect('/en');
+    return redirect("/en");
   }
 
   const localeData = await fetch(
-    new URL(`/i18n/${locale}.json`, args.request.url),
+    new URL(`/i18n/${locale}.json`, args.request.url)
   )
     .then((res) => res.json())
     .catch(() => ({}));
@@ -32,22 +32,25 @@ export const loader = async (args: LoaderFunctionArgs) => {
     locale,
     localeData,
   };
-}
+};
 
 export default function Root() {
   const loaderData = useLoaderData<typeof loader>();
   const navigate = useNavigate();
-  const isRtl = loaderData.locale.startsWith('ar') || loaderData.locale.startsWith('fa');
+  const isRtl =
+    loaderData.locale.startsWith("ar") || loaderData.locale.startsWith("fa");
 
   return (
     <IntlProvider
       locale={loaderData.locale}
-      messages={loaderData.localeData}
+      messages={loaderData.localeData as Record<string, string>}
     >
       <html
         lang={loaderData.locale}
-        dir={isRtl ? 'rtl' : 'ltr'}
-        className={cn(`${demoConfig.theme} h-full text-foreground bg-background`)}
+        dir={isRtl ? "rtl" : "ltr"}
+        className={cn(
+          `${demoConfig.theme} h-full text-foreground bg-background`
+        )}
       >
         <head>
           <meta charSet="utf-8" />
@@ -72,9 +75,9 @@ export default function Root() {
 
   function handleLocaleChange(newLocale: string) {
     const currentPathname = window.location.pathname;
-    const chunks = currentPathname.split('/');
+    const chunks = currentPathname.split("/");
     chunks[1] = newLocale;
-    const newPathname = chunks.join('/');
+    const newPathname = chunks.join("/");
     navigate(newPathname);
   }
 }

@@ -3,7 +3,7 @@
 import React from "react";
 import { Button, Input, Checkbox, Link, Divider } from "@nextui-org/react";
 import { Icon } from "@iconify/react";
-import { FormattedMessage, useIntl } from 'react-intl';
+import { FormattedMessage, useIntl } from "react-intl";
 import { getLocalizedPathname } from "~/utils";
 
 export default function App() {
@@ -20,20 +20,27 @@ export default function App() {
         <p className="pb-2 text-xl font-medium">
           <FormattedMessage id="auth.signUp" />
         </p>
-        <form className="flex flex-col gap-3" onSubmit={(e) => e.preventDefault()}>
+        <form
+          className="flex flex-col gap-3"
+          onSubmit={(e) => e.preventDefault()}
+        >
           <Input
             isRequired
-            label={intl.formatMessage({ id: 'auth.username' })}
+            label={intl.formatMessage({ id: "auth.username" })}
             name="username"
-            placeholder={intl.formatMessage({ id: 'auth.enterUsername' })}
+            placeholder={intl.formatMessage({
+              id: "auth.username.placeholder",
+            })}
             type="text"
             variant="bordered"
           />
           <Input
             isRequired
-            label={intl.formatMessage({ id: 'auth.emailAddress' })}
+            label={intl.formatMessage({ id: "auth.emailAddress" })}
             name="email"
-            placeholder={intl.formatMessage({ id: 'auth.enterEmail' })}
+            placeholder={intl.formatMessage({
+              id: "auth.emailAddress.placeholder",
+            })}
             type="email"
             variant="bordered"
           />
@@ -54,9 +61,11 @@ export default function App() {
                 )}
               </button>
             }
-            label={intl.formatMessage({ id: 'auth.password' })}
+            label={intl.formatMessage({ id: "auth.password" })}
             name="password"
-            placeholder={intl.formatMessage({ id: 'auth.enterPassword' })}
+            placeholder={intl.formatMessage({
+              id: "auth.password.placeholder",
+            })}
             type={isVisible ? "text" : "password"}
             variant="bordered"
           />
@@ -77,9 +86,11 @@ export default function App() {
                 )}
               </button>
             }
-            label={intl.formatMessage({ id: 'auth.confirmPassword' })}
+            label={intl.formatMessage({ id: "auth.confirmPassword" })}
             name="confirmPassword"
-            placeholder={intl.formatMessage({ id: 'auth.confirmYourPassword' })}
+            placeholder={intl.formatMessage({
+              id: "auth.confirmPassword.placeholder",
+            })}
             type={isConfirmVisible ? "text" : "password"}
             variant="bordered"
           />
@@ -94,7 +105,12 @@ export default function App() {
               <FormattedMessage id="auth.privacyPolicy" />
             </Link>
           </Checkbox>
-          <Button color="primary" type="submit" as={Link} href={getLocalizedPathname('/app', intl.locale)}>
+          <Button
+            color="primary"
+            type="submit"
+            as={Link}
+            href={getLocalizedPathname("/app", intl.locale)}
+          >
             <FormattedMessage id="auth.signUp" />
           </Button>
         </form>
@@ -109,14 +125,18 @@ export default function App() {
           <Button
             startContent={<Icon icon="flat-color-icons:google" width={24} />}
             variant="bordered"
-            as={Link} href={getLocalizedPathname('/app', intl.locale)}
+            as={Link}
+            href={getLocalizedPathname("/app", intl.locale)}
           >
             <FormattedMessage id="auth.signUpWithGoogle" />
           </Button>
           <Button
-            startContent={<Icon className="text-default-500" icon="fe:github" width={24} />}
+            startContent={
+              <Icon className="text-default-500" icon="fe:github" width={24} />
+            }
             variant="bordered"
-            as={Link} href={getLocalizedPathname('/app', intl.locale)}
+            as={Link}
+            href={getLocalizedPathname("/app", intl.locale)}
           >
             <FormattedMessage id="auth.signUpWithGithub" />
           </Button>
@@ -124,7 +144,7 @@ export default function App() {
         <p className="text-center text-small">
           <FormattedMessage id="auth.alreadyHaveAccount" />
           &nbsp;
-          <Link size="sm" href={getLocalizedPathname('/app', intl.locale)}>
+          <Link size="sm" href={getLocalizedPathname("/app", intl.locale)}>
             <FormattedMessage id="auth.logIn" />
           </Link>
         </p>

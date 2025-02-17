@@ -10,12 +10,12 @@
         على عدة أسطر ويحافظ
         على فواصل الأسطر</string>
   <string name="cdata_text">هذا النص يحتوي على وسوم HTML &lt;b&gt;غامق&lt;/b&gt; و &lt;i&gt;مائل&lt;/i&gt;</string>
-  <string name="welcome_messages">مرحباً، %1$s! لديك %2$d رسائل جديدة ورصيدك هو $%3$.2f.</string>
+  <string name="welcome_messages">مرحباً، %1$s! لديك %2$d رسائل جديدة ورصيدك هو %3$.2f$.</string>
   <string name="unicode_string">こんにちは世界 • Здравствуй, мир • مرحبا بالعالم</string>
-  <string name="escaped_string">تبويب:\t سطر جديد:\n اقتباس:\" شرطة مائلة للخلف:\\</string>
+  <string name="escaped_string">علامة التبويب:\t سطر جديد:\n اقتباس:\" شرطة مائلة للخلف:\\</string>
   <string name="app_description">مرحباً بك في %1$s</string>
   <string name="complex_format">في %1$s، قام %2$s بدعوة %3$d ضيوف إلى %4$s.</string>
-  <string name="formatted_text">يمكن أن يكون النص ، ،  أو .</string>
+  <string name="formatted_text">يمكن أن يكون النص ، ، أو .</string>
   <string-array name="planets_array">
     <item>عطارد</item>
     <item>الزهرة</item>
