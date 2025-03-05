@@ -2,11 +2,17 @@
   "version": 1.2,
   "locale": {
     "source": "en",
-    "targets": ["es", "ar"]
+    "targets": [
+      "es",
+      "ar"
+    ]
   },
   "buckets": {
     "json": {
-      "include": ["public/i18n/[locale].json"]
+      "include": [
+        "public/i18n/[locale].json"
+      ]
     }
-  }
+  },
+  "$schema": "https://lingo.dev/schema/i18n.json"
 }
